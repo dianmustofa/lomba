@@ -54,3 +54,10 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['form-pendaftaran'] = 'welcome/form';
+$route['penjurian_view'] = 'welcome/penjurian';
+$route['welcome/get_peserta_by_id/(:num)'] = 'welcome/get_peserta_by_id/$1';
+
+
+
+
+
