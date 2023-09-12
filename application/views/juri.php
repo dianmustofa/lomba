@@ -130,54 +130,6 @@
                 </div> -->
             </div>
         </section>
-        <!-- End of section -->
-        <!-- Section -->
-        <section class="section section-xl">
-            <div class="container">
-                <div class="row align-items-center justify-content-around">
-                    <div class="col-md-6 col-lg-7">
-                        <div class="card shadow-soft border-soft mb-4">
-                            <div class="card-body">
-                                <div class="d-flex p-2">
-                                    <div>
-                                        <div class="icon text-tertiary">
-                                            <i class="far fa-keyboard"></i>
-                                        </div>
-                                    </div>
-                                    <div class="pl-4">
-                                        <h5 class="icon-box-title">Lomba</h5>
-                                        <p class="icon-box-text">Deskripsi lomba deskripsi lomba deskripsi lomba deskripsi lomba deskripsi lomba deskripsi lomba deskripsi lomba.</p>
-                                    </div>
-                                </div>
-                                <div class="row align-items-center justify-content-center">
-                                    <a href="<?php echo base_url(); ?>form-pendaftaran" role="button" class="btn btn-primary rounded-pill m-1">Pendaftaran</a>
-                                    <a class="btn btn-primary rounded-pill m-1" href="https://drive.google.com/file/d/1A7-lQDvGtVlGexL0NMWxNyOOhxnRZx5y/view?usp=sharing>guidelinebook" target="_blank">Guideline Book</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="card shadow-soft border-soft mb-4">
-                            <div class="card-body">
-                                <div class="d-flex p-2">
-                                    <div>
-                                        <div class="icon text-secondary">
-                                            <i class="fas fa-fingerprint"></i>
-                                        </div>
-                                    </div>
-                                    <div class="pl-4">
-                                        <h5 class="icon-box-title">New technologies</h5>
-                                        <p class="icon-box-text">You can rely on our amazing features list and also our customer services will be great experience for your company.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5 d-none d-sm-block">
-                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/img/pages/iphone.png" alt="Image">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End of section -->
         <!-- Section -->
         <section class="section section-lg">
             <div class="container">
@@ -308,10 +260,6 @@
         </section>
         <!-- End of section -->
     </main>
-
-    <!-- Scroll To Top -->
-    <?php $this->load->view("_partials/scrollTop.php") ?>
-    <!-- End of Footer -->
 
     <!-- Footer -->
     <?php $this->load->view("_partials/footer.php") ?>

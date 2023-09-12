@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Pixel Pages - Contact</title>
+    <title>Formulir Lomba</title>
     <?php $this->load->view("_partials/head.php") ?>
 </head>
 

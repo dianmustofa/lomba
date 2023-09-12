@@ -32,6 +32,10 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('form_view');
 	}
+	public function juri()
+	{
+		$this->load->view('juri');
+	}
 
 	function simpan(){
 		$config['upload_path'] = './assets/images/'; //path folder
